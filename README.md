@@ -1,16 +1,30 @@
-# sl_bus_tracker
+# 🚌 SL Bus Tracker
 
-A new Flutter project.
+A Sri Lankan bus route tracker built with **Flutter & Dart**.
 
-## Getting Started
+🌐 **Live Demo:** [sl-bus-tracker.vercel.app](https://sl-bus-tracker.vercel.app)
 
-This project is a starting point for a Flutter application.
+## Features
+- 🔍 Search routes by city or stop name
+- 🕒 View daily bus schedules & timings
+- 🗺️ Visual route stops with departure/arrival
+- ❤️ Save favorite routes locally
+- 🌙 Dark elegant UI with gold accents
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- **Flutter 3.32** + **Dart 3.8**
+- **Provider** — state management
+- **shared_preferences** — local storage
+- **Vercel** — deployment
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Run Locally
+```bash
+git clone https://github.com/Paramith2004/sl-bus-tracker.git
+cd sl-bus-tracker
+flutter pub get
+flutter run -d chrome
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+**Paramith Kavisha** — Software Engineering Undergraduate, IIT Sri Lanka
+🔗 [LinkedIn](https://linkedin.com/in/paramith-kavisha) | 🌐 [Portfolio](https://paramith2004.github.io/portfolio)
